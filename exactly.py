@@ -40,5 +40,5 @@ def send_it():
 # To start the flow (can also be registered with Prefect Cloud)
 if __name__ == "__main__":
     send_it.serve(name='floshi' , rrule="""
-    DTSTART:20241024T110000Z
-    FREQ=DAILY;UNTIL=20241024T111000Z""")  # or flow.register(project_name="your_project_name")
+    DTSTART:20241024T175000Z
+    FREQ=DAILY;UNTIL=20241024T180000Z""")  # or flow.register(project_name="your_project_name")
