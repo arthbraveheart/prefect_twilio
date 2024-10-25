@@ -32,7 +32,7 @@ def send_whatsapp_message(to, message_body):
 #schedule = "20 3 24 10 * 2024"
 
 # Prefect flow with the scheduled date
-@flow(name='sender_8')
+@flow(name='sender_JJ')
 def send_it():
     # Send a WhatsApp message to a specific number with a custom message
     send_whatsapp_message("whatsapp:+553285140754", "Your scheduled notification for 2024-10-24.")
