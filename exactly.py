@@ -5,14 +5,14 @@ from twilio.rest import Client
 
 # Definindo as variáveis do Twilio
 TWILIO_SID = 'AC069f1485becb681509aa3ea0b36dec02'
-TWILIO_AUTH_TOKEN = '5b8babb909ba51469d44f86aa9c048c2'
+TWILIO_AUTH_TOKEN = 'ed357667c68e8a0a1a555def906dc9e2'
 TWILIO_PHONE_NUMBER = 'whatsapp:+553299696625'    #3299696625
 DESTINATION_PHONE_NUMBER = 'whatsapp:+553285140754' #3285140754 #3199795243
 
 
 # Twilio authentication details (use your actual credentials)
 account_sid = 'AC069f1485becb681509aa3ea0b36dec02'
-auth_token = '5b8babb909ba51469d44f86aa9c048c2'
+auth_token = 'ed357667c68e8a0a1a555def906dc9e2'
 twilio_number = 'whatsapp:+553299696625'  # Twilio's sandbox WhatsApp number
 
 # Create Twilio client
