@@ -39,4 +39,4 @@ def send_it():
 
 # To start the flow (can also be registered with Prefect Cloud)
 if __name__ == "__main__":
-    send_it.serve(name='floshist' , cron='*/20 * * * *',)
+    send_it()#.serve(name='floshist' , cron='*/20 * * * *',)
